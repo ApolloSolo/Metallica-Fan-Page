@@ -105,17 +105,21 @@ li a:hover{
 
 .aside-right__items{
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    column-gap: 1rem;
+    align-items: center;
 }
 
 .tour-date{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-self: flex-start;
 }
 
 .date{
     font-weight: 900;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aside-right-location{
+    align-self: center;
 }
